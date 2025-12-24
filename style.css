@@ -464,6 +464,11 @@ body{
   width: 200px;
   height: auto;
 }
+.card.video
+{
+  margin-top: 32px;
+}
+
 
 
 
