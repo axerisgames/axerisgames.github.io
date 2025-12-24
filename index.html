@@ -37,7 +37,6 @@
       </p>
 
       <div class="cta">
-        <!-- обе кнопки одинаковые (outline), как ты хотел -->
         <a class="btn btn--outline" href="#games">Our Games</a>
         <a class="btn btn--outline" href="#contact">Contact</a>
       </div>
@@ -115,33 +114,34 @@
             <img class="game__img" src="assets/screens/s1.png" alt="Boss Arena screenshot">
           </div>
 
-          <div class="game__body">
-            <h3 class="game__title">Hollow Ember</h3>
+     <div class="game__body">
 
-            <p class="game__desc">
-              Endless waves, upgrades, and fast-paced combat.
-            </p>
-<ul class="meta">
-              <li><span>Platform:</span> Mobile</li>
-              <li><span>Status:</span> In Development</li>
-            </ul>
+  <!-- Заголовок + иконка -->
+  <div class="game__header">
+    <img class="game__icon" src="assets/game-icon.png" alt="Hollow Ember icon">
+    <h3 class="game__title">Hollow Ember</h3>
+  </div>
 
-            <div class="game__actions">
-              <a class="btn btn--outline btn--sm"
-                 href="https://play.google.com/store/apps/developer?id=Axeris+Games"
-                 target="_blank" rel="noopener">
-                Google Play
-              </a>
+  <p class="game__desc">
+    Endless waves, upgrades, and fast-paced combat.
+  </p>
 
-              <a class="btn btn--outline btn--sm" href="#gallery">Screenshots</a>
+  <ul class="meta">
+    <li><span>Platform:</span> Mobile</li>
+    <li><span>Status:</span> In Development</li>
+  </ul>
 
-              <a class="btn btn--outline btn--sm"
-                 href="https://youtube.com/@axerisgames"
-                 target="_blank" rel="noopener">
-                YouTube
-              </a>
-            </div>
-          </div>
+  <!-- Только иконка Google Play -->
+  <div class="game__actions">
+    <a class="store-icon"
+       href="https://play.google.com/store/apps/developer?id=Axeris+Games"
+       target="_blank" rel="noopener"
+       aria-label="Google Play">
+      <img src="assets/google-play.svg" alt="Google Play">
+    </a>
+  </div>
+
+</div>
         </article>
 
         <!-- Video / Channel -->
@@ -229,4 +229,5 @@
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
+
 </html>
