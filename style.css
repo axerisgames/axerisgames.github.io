@@ -28,7 +28,7 @@ body{
 }
 
 .hero{
-  min-height: 92vh;
+  min-height: 85vh;
   display:flex;
   align-items:center;
   padding: 48px 0 28px;
@@ -144,11 +144,11 @@ body{
 }
 
 .section{
-  padding: 56px 0;
+  padding: 40px 0;
 }
 
 .section__title{
-  margin:0 0 18px;
+  margin:0 0 12px;
   text-align:center;
   color: var(--gold);
   letter-spacing:.12em;
@@ -448,3 +448,4 @@ body{
   width:22px;
   height:22px;
 }
+
