@@ -449,11 +449,6 @@ body{
     borfer-color: #e3a21a;
     transfom: translateY(-1px);
 }
-.btn img{
-  width: 16px;
-  height: 16px;
-  display: block;
-}
 .btn-play
 {
   padding: 6px 12px;
@@ -462,9 +457,10 @@ body{
 }
 .btn-play img
 {
-  width: 50px;
+  width: 100px;
   height: auto;
 }
+
 
 
 
