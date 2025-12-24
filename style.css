@@ -428,7 +428,7 @@ body{
 }
 
 .store-icon {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -436,20 +436,21 @@ body{
     height: 64px;
 
     border-radius: 50%;
-    border: 2px solid rgba(255, 170, 0, 0.6);
+    border: 2px solid rgba(255, 170, 0, 0.7);
 
     background: rgba(255, 170, 0, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
 }
 
 .store-icon img {
-    width: 36px;
-    height: 36px;
+    width: 42px;
+    height: 42px;
 }
 
 .store-icon:hover {
     transform: scale(1.08);
     box-shadow: 0 0 20px rgba(255, 170, 0, 0.35);
 }
+
 
 
