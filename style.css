@@ -409,4 +409,42 @@ body{
   inset: 0;
   width: 100%;
   height: 100%;
+
+}
+.game__header{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom: 8px;
+}
+
+.game__icon{
+  width:48px;
+  height:48px;
+  border-radius:12px;
+  background:#111;
+  border:1px solid rgba(255,255,255,.12);
+  object-fit:cover;
+}
+
+.store-icon{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  border-radius:999px;
+  border:1px solid rgba(227,162,26,.55);
+  background: rgba(227,162,26,.08);
+  transition: transform .12s ease, background .12s ease, border-color .12s ease;
+}
+
+.store-icon:hover{
+  background: rgba(227,162,26,.16);
+  border-color: rgba(227,162,26,.9);
+}
+
+.store-icon img{
+  width:22px;
+  height:22px;
 }
