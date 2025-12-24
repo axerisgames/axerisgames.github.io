@@ -444,10 +444,17 @@ body{
     height: 36px;
 }
 
-.store-icon:hover {
+.btn--ghost:hover {
     background: rgba(255,255,255,0.1);
-    transform: scale(1.05);
+    borfer-color: #e3a21a;
+    transfom: translateY(-1px);
 }
+.btn img{
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
 
 
 
