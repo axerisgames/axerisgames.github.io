@@ -427,25 +427,29 @@ body{
   object-fit:cover;
 }
 
-.store-icon{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:44px;
-  height:44px;
-  border-radius:999px;
-  border:1px solid rgba(227,162,26,.55);
-  background: rgba(227,162,26,.08);
-  transition: transform .12s ease, background .12s ease, border-color .12s ease;
+.store-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+    border: 2px solid rgba(255, 170, 0, 0.6);
+
+    background: rgba(255, 170, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.store-icon:hover{
-  background: rgba(227,162,26,.16);
-  border-color: rgba(227,162,26,.9);
+.store-icon img {
+    width: 36px;
+    height: 36px;
 }
 
-.store-icon img{
-  width:22px;
-  height:22px;
+.store-icon:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(255, 170, 0, 0.35);
 }
+
 
