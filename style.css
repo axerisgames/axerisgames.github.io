@@ -428,29 +428,27 @@ body{
 }
 
 .store-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;          
+    border: none;                
+    background: rgba(255,255,255,0.05); 
     display: flex;
     align-items: center;
     justify-content: center;
-
-    width: 64px;
-    height: 64px;
-
-    border-radius: 50%;
-    border: 2px solid rgba(255, 170, 0, 0.7);
-
-    background: rgba(255, 170, 0, 0.08);
-  
+    transition: transform 0.15s ease, background 0.15s ease;
 }
 
 .store-icon img {
-    width: 42px;
-    height: 42px;
+    width: 36px;
+    height: 36px;
 }
 
 .store-icon:hover {
-    transform: scale(1.08);
-    box-shadow: 0 0 20px rgba(255, 170, 0, 0.35);
+    background: rgba(255,255,255,0.1);
+    transform: scale(1.05);
 }
+
 
 
 
