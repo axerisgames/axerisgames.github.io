@@ -469,6 +469,34 @@ body{
   margin-top: 40px;
 }
 
+.socials.icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.04);
+  transition: all .2s ease;
+}
+
+.icon-link img {
+  width: 22px;
+  height: 22px;
+}
+
+.icon-link:hover {
+  background: rgba(255,255,255,0.08);
+  transform: translateY(-2px);
+}
+
+
 
 
 
